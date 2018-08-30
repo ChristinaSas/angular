@@ -11,7 +11,8 @@ import { UserService } from './user.service';
 import { HomeComponent } from './home/home.component';
 import { CartComponent } from './cart/cart.component';
 import {FormsModule} from '@angular/forms';
-import{RouterModule} from '@angular/router'
+import{RouterModule} from '@angular/router';
+import { UsersContainerComponent } from './users-container/users-container.component'
 
 const routes=[
   {path:'',component:HomeComponent},
@@ -29,7 +30,8 @@ const routes=[
     ParentComponent,
     ChildComponent,
     HomeComponent,
-    CartComponent
+    CartComponent,
+    UsersContainerComponent
   ],
   imports: [
     BrowserModule,
